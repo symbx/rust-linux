@@ -19,7 +19,8 @@
 //! scope will hopefully increase to cover most or all of the system calls
 //! that work with file descriptors.
 #![no_std]
-#![cfg_attr(docsrs, feature(doc_auto_cfg))]
+#![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(docsrs, doc(auto_cfg))]
 
 /// Access to the "poll" system call.
 pub mod poll;
