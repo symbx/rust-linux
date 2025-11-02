@@ -71,6 +71,10 @@ pub mod raw;
 #[path = "raw/arm.rs"]
 pub mod raw;
 
+#[cfg(all(target_os = "linux", target_arch = "aarch64"))]
+#[path = "raw/aarch64.rs"]
+pub mod raw;
+
 #[cfg(all(target_os = "linux", target_arch = "riscv64"))]
 #[path = "raw/riscv64.rs"]
 pub mod raw;
