@@ -9,6 +9,7 @@
 //! - x86_64
 //! - x86 (32-bit)
 //! - arm
+//! - aarch64
 //! - riscv64
 //!
 //! For this initial release, x86_64 has seen some limited testing and the
